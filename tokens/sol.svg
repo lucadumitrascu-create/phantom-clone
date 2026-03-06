@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="a" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+    <linearGradient id="b" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+    <linearGradient id="c" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="64" fill="#000"/>
+  <g transform="translate(28, 34) scale(0.56)">
+    <path fill="url(#a)" d="M12.5 94.2c1.2-1.2 2.8-1.9 4.5-1.9h110.6c2.8 0 4.3 3.4 2.3 5.5L108 119.7c-1.2 1.2-2.8 1.9-4.5 1.9H-7.1c-2.8 0-4.3-3.4-2.3-5.5L12.5 94.2z"/>
+    <path fill="url(#b)" d="M12.5 1.9C13.7.7 15.3 0 17 0h110.6c2.8 0 4.3 3.4 2.3 5.5L108 27.4c-1.2 1.2-2.8 1.9-4.5 1.9H-7.1c-2.8 0-4.3-3.4-2.3-5.5L12.5 1.9z"/>
+    <path fill="url(#c)" d="M108 47.6c-1.2-1.2-2.8-1.9-4.5-1.9H-7.1c-2.8 0-4.3 3.4-2.3 5.5l21.9 21.9c1.2 1.2 2.8 1.9 4.5 1.9h110.6c2.8 0 4.3-3.4 2.3-5.5L108 47.6z"/>
+  </g>
+</svg>
