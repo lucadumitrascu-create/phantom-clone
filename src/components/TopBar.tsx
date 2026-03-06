@@ -48,8 +48,8 @@ export default function TopBar({ onLongPress }: TopBarProps) {
           />
         </div>
         <div>
-          <div style={{ fontSize: 16, fontWeight: 600, color: '#fff' }}>@amiri777</div>
-          <div style={{ fontSize: 13, lineHeight: 1 }}>💵</div>
+          <div style={{ fontSize: 13, color: '#6e6e6e' }}>@amiri777</div>
+          <div style={{ fontSize: 18, fontWeight: 600, color: '#fff' }}>Account 1</div>
         </div>
       </div>
 

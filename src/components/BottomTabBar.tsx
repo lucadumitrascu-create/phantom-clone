@@ -4,13 +4,13 @@ const tabs = [
   {
     label: 'Home',
     icon: (active: boolean) => (
-      <svg fill={active ? '#ab9ff2' : 'none'} viewBox="0 0 24 24" width="24" height="24">
+      <svg fill={active ? '#ab9ff2' : 'none'} viewBox="0 0 24 24" width="26" height="26">
         <path
           stroke={active ? '#ab9ff2' : '#6e6e6e'}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M3 10.5L12 3l9 7.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10.5Z"
+          d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
         />
       </svg>
     ),
@@ -18,61 +18,46 @@ const tabs = [
   {
     label: 'Trade',
     icon: (active: boolean) => (
-      <svg fill="none" viewBox="0 0 24 24" width="24" height="24">
-        <path
-          stroke={active ? '#ab9ff2' : '#6e6e6e'}
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M8 21h8m-4-4v4M4 3h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2"
-        />
+      <svg fill="none" viewBox="0 0 24 24" width="26" height="26">
+        <rect x="2" y="3" width="20" height="14" rx="2" stroke={active ? '#ab9ff2' : '#6e6e6e'} strokeWidth="2" />
+        <path stroke={active ? '#ab9ff2' : '#6e6e6e'} strokeWidth="2" strokeLinecap="round" d="M8 21h8M12 17v4" />
       </svg>
     ),
   },
   {
     label: 'Swap',
     icon: (active: boolean) => (
-      <svg fill="none" viewBox="0 0 24 24" width="24" height="24">
+      <svg fill="none" viewBox="0 0 24 24" width="26" height="26">
         <path
           stroke={active ? '#ab9ff2' : '#6e6e6e'}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="m9 14-4 4m0 0 4 4m-4-4h11a4 4 0 0 0 4-4m-5-4 4-4m0 0-4-4m4 4H8a4 4 0 0 0-4 4"
+          d="m16 3 4 4-4 4M20 7H8a4 4 0 0 0-4 4m4 10-4-4 4-4M4 17h12a4 4 0 0 0 4-4"
         />
       </svg>
     ),
   },
   {
-    label: 'Activity',
+    label: 'Messages',
     icon: (active: boolean) => (
-      <svg fill="none" viewBox="0 0 24 24" width="24" height="24">
+      <svg fill="none" viewBox="0 0 24 24" width="26" height="26">
         <path
           stroke={active ? '#ab9ff2' : '#6e6e6e'}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
-        />
-        <path
-          stroke={active ? '#ab9ff2' : '#6e6e6e'}
-          strokeWidth="2"
-          strokeLinecap="round"
-          d="M8 9h8M8 13h4"
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
         />
       </svg>
     ),
   },
   {
-    label: 'Explore',
+    label: 'Search',
     icon: (active: boolean) => (
-      <svg fill="none" viewBox="0 0 24 24" width="24" height="24">
-        <path
-          stroke={active ? '#ab9ff2' : '#6e6e6e'}
-          strokeWidth="2"
-          strokeLinecap="round"
-          d="m21 21-4.35-4.35M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
-        />
+      <svg fill="none" viewBox="0 0 24 24" width="26" height="26">
+        <circle cx="11" cy="11" r="8" stroke={active ? '#ab9ff2' : '#6e6e6e'} strokeWidth="2" />
+        <path stroke={active ? '#ab9ff2' : '#6e6e6e'} strokeWidth="2" strokeLinecap="round" d="m21 21-4.35-4.35" />
       </svg>
     ),
   },

@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="90.2" y1="87.9" x2="35.3" y2="-17.3" gradientTransform="matrix(1 0 0 -1 0 78.5)">
-      <stop offset="0" stop-color="#00FFA3"/>
-      <stop offset="1" stop-color="#DC1FFF"/>
+    <linearGradient id="a" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
     </linearGradient>
-    <linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="66.2" y1="100.4" x2="11.3" y2="-4.8" gradientTransform="matrix(1 0 0 -1 0 78.5)">
-      <stop offset="0" stop-color="#00FFA3"/>
-      <stop offset="1" stop-color="#DC1FFF"/>
+    <linearGradient id="b" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
     </linearGradient>
-    <linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="78.1" y1="94.2" x2="23.2" y2="-11.1" gradientTransform="matrix(1 0 0 -1 0 78.5)">
-      <stop offset="0" stop-color="#00FFA3"/>
-      <stop offset="1" stop-color="#DC1FFF"/>
+    <linearGradient id="c" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="50%" stop-color="#8752F3"/>
+      <stop offset="100%" stop-color="#14F195"/>
     </linearGradient>
-    <clipPath id="clip"><circle cx="50" cy="50" r="50"/></clipPath>
   </defs>
-  <circle cx="50" cy="50" r="50" fill="#000"/>
-  <g clip-path="url(#clip)" transform="translate(15, 19) scale(0.176)">
-    <path fill="url(#g1)" d="M64.6,237.9c2.4-2.4,5.7-3.8,9.2-3.8h317.4c5.8,0,8.7,7,4.6,11.1l-62.7,62.7c-2.4,2.4-5.7,3.8-9.2,3.8H6.5c-5.8,0-8.7-7-4.6-11.1L64.6,237.9z"/>
-    <path fill="url(#g2)" d="M64.6,3.8C67.1,1.4,70.4,0,73.8,0h317.4c5.8,0,8.7,7,4.6,11.1l-62.7,62.7c-2.4,2.4-5.7,3.8-9.2,3.8H6.5c-5.8,0-8.7-7-4.6-11.1L64.6,3.8z"/>
-    <path fill="url(#g3)" d="M333.1,120.1c-2.4-2.4-5.7-3.8-9.2-3.8H6.5c-5.8,0-8.7,7-4.6,11.1l62.7,62.7c2.4,2.4,5.7,3.8,9.2,3.8h317.4c5.8,0,8.7-7,4.6-11.1L333.1,120.1z"/>
+  <circle cx="64" cy="64" r="64" fill="#000"/>
+  <g transform="translate(28, 34) scale(0.56)">
+    <path fill="url(#a)" d="M12.5 94.2c1.2-1.2 2.8-1.9 4.5-1.9h110.6c2.8 0 4.3 3.4 2.3 5.5L108 119.7c-1.2 1.2-2.8 1.9-4.5 1.9H-7.1c-2.8 0-4.3-3.4-2.3-5.5L12.5 94.2z"/>
+    <path fill="url(#b)" d="M12.5 1.9C13.7.7 15.3 0 17 0h110.6c2.8 0 4.3 3.4 2.3 5.5L108 27.4c-1.2 1.2-2.8 1.9-4.5 1.9H-7.1c-2.8 0-4.3-3.4-2.3-5.5L12.5 1.9z"/>
+    <path fill="url(#c)" d="M108 47.6c-1.2-1.2-2.8-1.9-4.5-1.9H-7.1c-2.8 0-4.3 3.4-2.3 5.5l21.9 21.9c1.2 1.2 2.8 1.9 4.5 1.9h110.6c2.8 0 4.3-3.4 2.3-5.5L108 47.6z"/>
   </g>
 </svg>
