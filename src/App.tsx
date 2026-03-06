@@ -6,7 +6,7 @@ import SettingsScreen from './screens/SettingsScreen';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <WalletProvider>
         <Routes>
           <Route path="/" element={<HomeScreen />} />
