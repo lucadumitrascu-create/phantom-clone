@@ -4,7 +4,6 @@ import TopBar from '../components/TopBar';
 import PortfolioValue from '../components/PortfolioValue';
 import ActionButtons from '../components/ActionButtons';
 import TokenList from '../components/TokenList';
-import PerpsSection from '../components/PerpsSection';
 import BottomTabBar from '../components/BottomTabBar';
 import PullToRefresh from '../components/PullToRefresh';
 
@@ -24,7 +23,6 @@ export default function HomeScreen() {
         <PortfolioValue total={totalBalance} changeUsd={totalChangeUsd} changePct={totalChangePct} />
         <ActionButtons />
         <TokenList />
-        <PerpsSection />
         <div style={{ height: 30 }} />
       </PullToRefresh>
       <BottomTabBar />
