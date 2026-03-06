@@ -68,33 +68,36 @@ export default function BottomTabBar() {
 
   return (
     <div style={{
-      display: 'flex',
-      justifyContent: 'space-around',
-      alignItems: 'center',
-      height: 60,
       background: '#111',
       borderTop: '1px solid rgba(255,255,255,0.06)',
-      paddingBottom: 'env(safe-area-inset-bottom)',
       flexShrink: 0,
     }}>
-      {tabs.map((tab, i) => {
-        const isActive = i === active;
-        return (
-          <button
-            key={tab.label}
-            onClick={() => setActive(i)}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              width: 48,
-              height: 48,
-            }}
-          >
-            {tab.icon(isActive)}
-          </button>
-        );
-      })}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        height: 56,
+      }}>
+        {tabs.map((tab, i) => {
+          const isActive = i === active;
+          return (
+            <button
+              key={tab.label}
+              onClick={() => setActive(i)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 48,
+                height: 48,
+              }}
+            >
+              {tab.icon(isActive)}
+            </button>
+          );
+        })}
+      </div>
+      <div style={{ height: 'env(safe-area-inset-bottom)' }} />
     </div>
   );
 }
